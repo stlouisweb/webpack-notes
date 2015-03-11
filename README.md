@@ -6,7 +6,7 @@
 
 Replace all script tags with a single script tag.
 
-## Install webpack
+### Install webpack
 
 ```
 npm install webpack
@@ -27,7 +27,7 @@ module.exports = {
 command webpack runs config creates bundle.js.
 
 
-## convert your scripts to modules
+### convert your scripts to modules
 
 ```javascript
 var someModule = require('./someModule');
