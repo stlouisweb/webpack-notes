@@ -1,5 +1,5 @@
 # Webpack Module Bundler
-### Yet another build tool, that allows you to create modular components of your dependencies and load ni just the parts you need when you need them.
+### Yet another build tool, that allows you to create modular components of your dependencies and load in just the parts you need when you need them.
 
 ## [Quick intro to webpack](https://egghead.io/lessons/javascript-intro-to-webpack?__s=q7rjpmro69qqprqkvgoj)
 
@@ -35,17 +35,18 @@ var someModule = require('./someModule');
 
 in someModule.js file:
 
-```javascript
+replace
+
 ~~var someModule = {~~
   ...
 }
-```
 
-```javascript
+with
+
 module.exports = {
   ...
 }
-```
+
 
 
 
