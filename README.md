@@ -1,3 +1,7 @@
+# Webpack Module Bundler
+
+### Yet another build tool, that allows you to create modular components of your dependencies and load in just the parts you need when you need them.
+
 ## [Quick intro to webpack](https://egghead.io/lessons/javascript-intro-to-webpack?__s=q7rjpmro69qqprqkvgoj)
 
 
@@ -125,3 +129,47 @@ Chuncks with modules that are not required initially are only requested on deman
 
 ### [Why only javascript](http://webpack.github.io/docs/motivation.html#why-only-javascript)
 Webpack allows the developer to modularize a whole range of assets besides just Javascript
+
+## What is Webpack
+> webpack is a module bundler.
+
+> webpack takes modules with dependencies and generates static assets representing those modules.
+
+#### Webpack goals
+* Split the dependency tree into chunks loaded on demand
+* Keep inital loading time low
+* Every static asset should be able to be a module
+* Ability to integrate 3rd-party libraries as modules
+* Ability to customize nearly every part of the module bundler
+* Suited for big projects
+
+#### [Key features](http://webpack.github.io/docs/what-is-webpack.html#how-webpack-is-different)
+* [Code Splitting](http://webpack.github.io/docs/code-splitting.html)
+* [Loaders](http://webpack.github.io/docs/loaders.html)
+* Clever parsing
+* [Plugin System](http://webpack.github.io/docs/plugins.html)
+
+## Installing Webpack
+Install webpack globally via npm:
+
+```
+npm install webpack -g
+```
+
+Optionally you can add webpack as dependency to your project so that you can use a customized local version of webpack:
+
+```
+npm init
+```
+
+To add a package.json config file. then,
+
+```
+npm install webpack --save-dev
+```
+
+To Install webpack locally in your project. 
+
+
+## [Usage](http://webpack.github.io/docs/usage.html)
+Provides links to docs for CLI, node.js API and configuration options.
