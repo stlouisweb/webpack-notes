@@ -152,3 +152,6 @@ To Install webpack locally in your project.
 
 ## [Usage](http://webpack.github.io/docs/usage.html)
 Provides links to docs for CLI, node.js API and configuration options.
+
+## Tutorial
+[Official beginner tutorial](http://webpack.github.io/docs/tutorials/getting-started/)
